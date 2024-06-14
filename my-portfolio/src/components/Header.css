@@ -1,6 +1,154 @@
-.header-container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Estilos básicos para desktop */
+
+.header-wrapper {
+  background: radial-gradient(
+    circle,
+    rgb(69, 44, 77) 0%,
+    rgb(68, 42, 73) 60%,
+    rgb(70, 39, 73) 100%
+  );
+
+  color: white;
 }
+
+.header-container {
+  box-shadow: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.react-with-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-text {
+  color:rgb(161, 135, 165);
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.wave-icon {
+  color: rgba(224, 238, 35, 0.87);
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.react-text {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+
+.icons > * {
+  color: rgba(224, 238, 35, 0.87);
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  transition: transform 0.3s;
+}
+
+.icons > *:hover {
+  transform: scale(1.2);
+}
+
+.developer-text {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+p {
+  margin-top: 2rem;
+  font-size: 0.5rem;
+  max-width: 600px;
+}
+
+/* Responsividade para tablets */
+
+/* @media (max-width: 768px) {
+  .name-text {
+    font-size: 1.3rem;
+  }
+
+  .react-text {
+    font-size: 2.5rem;
+  }
+
+  .icons > * {
+    font-size: 1.5rem;
+  }
+
+  .developer-text {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+} */
+
+/* Responsividade para smartphones */
+
+/* @media (max-width: 480px) {
+  .header-container {
+    padding: 0 10px;
+  }
+
+  .name-text {
+    font-size: 1.2rem;
+  }
+
+  .react-text {
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+  }
+
+  .icons {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+
+  .icons > * {
+    font-size: 1.5rem;
+  }
+
+  .developer-text {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+} */
+
+/* Faixa de transição */
+
+/* Modelo-1 */
+/* .pixel-transition {
+  width: 100%;
+  height: 20px;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(18, 18, 18, 1) 0,
+    rgba(18, 18, 18, 1) 10px,
+    rgba(36, 36, 36, 1) 10px,
+    rgba(36, 36, 36, 1) 20px
+  );
+} */
