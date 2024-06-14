@@ -1,11 +1,10 @@
-
-
+import "./Footer.css";
 
 const Footer = () => {
     return (
-        <div className="footer-container">
-            <h3>Footer</h3>
-        </div>
+        <footer className="footer">
+            <p>&copy; 2024 Jefson Oliveira. Todos os direitos reservados.</p>
+        </footer>
     )
 }
 

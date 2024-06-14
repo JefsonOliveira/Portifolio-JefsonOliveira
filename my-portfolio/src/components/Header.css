@@ -15,10 +15,9 @@
   box-shadow: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   height: 100vh;
-  padding: 0 20px;
+  padding: 0 100px;
 }
 
 .react-with-icons {
@@ -33,7 +32,6 @@
   margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
-  text-align: left;
 }
 
 .wave-icon {
